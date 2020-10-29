@@ -1,0 +1,8 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"routes": [{
+		"source": "/node_be/cv.xsodata/",
+		"destination": "node_be"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+  "role": {
+  	"name": "Training.db::cross_container_g#", 
+    "object_privileges": [
+      {
+        "name": "Training.db::CUSTOMER.CUSTOMER",
+        "type": "TABLE",
+        "privileges": [
+          "SELECT"
+        ],
+        "privileges_with_grant_option": [
+          "SELECT"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Training.db3::ACC": {
+    "target": {
+      "object": "ACC",
+      "schema": "EXT_SCHEMA"
+    }
+  }
+}

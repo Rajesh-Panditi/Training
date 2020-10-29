@@ -1,0 +1,11 @@
+namespace Training.db1;
+
+context SALES {
+
+    /*@@layout{"layoutInfo":{"x":-284,"y":-64.5}}*/
+    entity SALES {
+        NAME  : String(10);
+        YEAR  : String(10);
+        PRICE : Integer;
+    };
+};

@@ -1,0 +1,9 @@
+{
+  "Training.db1::CUSTOMER.CUSTOMER": {
+    "target": {
+      "object": "Training.db::CUSTOMER.CUSTOMER",
+      "schema": "TRAINING_HDI_DB_1",
+      "database": "MRS"
+    }
+  }
+}
