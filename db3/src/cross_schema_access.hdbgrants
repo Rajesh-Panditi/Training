@@ -1,0 +1,22 @@
+{
+	"cross_schema_access": {
+		"object_owner": {
+			"global_roles": [{
+				"roles": [
+					"ext_role_objectowner_g#"
+				],
+				"roles_with_admin_option": [
+					"ext_role_objectowner_g#"
+				]
+
+			}]
+		},
+		"application_user": {
+			"global_roles": [{
+				"roles": [
+					"ext_role_applicationuser"
+				]
+			}]
+		}
+	}
+}

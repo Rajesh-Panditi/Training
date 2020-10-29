@@ -1,0 +1,14 @@
+{
+  "role": {
+  	"name": "Training.db::cross_container", 
+    "object_privileges": [
+      {
+        "name": "Training.db::CUSTOMER.CUSTOMER",
+        "type": "TABLE",
+        "privileges": [
+          "SELECT"
+        ]
+      }
+    ]
+  }
+}

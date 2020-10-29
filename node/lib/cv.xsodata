@@ -1,0 +1,3 @@
+service {
+"Training.db1::CV_REPORT" as "CV_REPORT" keys("FIRST_NAME");
+}

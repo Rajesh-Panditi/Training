@@ -1,0 +1,22 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
+			Namespace="default">
+			<EntityType Name="CV_REPORTType">
+				<Key>
+					<PropertyRef Name="FIRST_NAME"/>
+				</Key>
+				<Property Name="FIRST_NAME" Type="Edm.String" MaxLength="10"/>
+				<Property Name="LAST_NAME" Type="Edm.String" MaxLength="10"/>
+				<Property Name="COUNTRY" Type="Edm.String" MaxLength="10"/>
+				<Property Name="PHONE_NUMBER" Type="Edm.String" MaxLength="10"/>
+				<Property Name="YEAR" Type="Edm.String" MaxLength="10"/>
+				<Property Name="PRICE" Type="Edm.Int32"/>
+			</EntityType>
+			<EntityContainer Name="v2" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="CV_REPORT" EntityType="default.CV_REPORTType"/>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

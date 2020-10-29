@@ -1,0 +1,14 @@
+{
+  "I077835-b1rrcplmgxsheph9-Training-hdi_db": {
+    "object_owner": {
+      "container_roles": [
+        "Training.db::cross_container_g#"
+      ]
+    },
+    "application_user": {
+      "container_roles": [
+        "Training.db::cross_container"
+      ]
+    }
+  }
+}

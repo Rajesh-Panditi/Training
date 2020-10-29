@@ -1,0 +1,8 @@
+{
+  "Training.db1::CUSTOMER.CUSTOMER": {
+    "target": {
+      "object": "Training.db::CUSTOMER.CUSTOMER",
+      "schema.configure": "I077835-b1rrcplmgxsheph9-Training-hdi_db/schema"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+namespace Training.db;
+
+/*@@layout{"layoutInfo":{"x":-246.224609375,"y":-70.5}}*/
+context CUSTOMER {
+
+    /*@@layout{"layoutInfo":{"x":-296,"y":-63.5}}*/
+    entity CUSTOMER {
+        FIRST_NAME   : String(10);
+        LAST_NAME    : String(10);
+        COUNTRY      : String(10);
+        PHONE_NUMBER : String(10);
+    };
+};
