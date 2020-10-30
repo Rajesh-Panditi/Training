@@ -1,0 +1,16 @@
+namespace Training.db;
+
+using Training.db::CUSTOMER.CUSTOMER;
+
+context test {
+
+    /*@@layout{"layoutInfo":{"x":-242,"y":37.5}}*/
+    view View as
+        select from CUSTOMER
+        {
+            FIRST_NAME,
+            LAST_NAME,
+            COUNTRY,
+            PHONE_NUMBER
+        };
+};
